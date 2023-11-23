@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "item_lists",
+  "info": {
+    "singularName": "item-list",
+    "pluralName": "item-lists",
+    "displayName": "item list"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "itemName": {
+      "type": "string",
+      "default": "null",
+      "maxLength": 10
+    },
+    "itemId": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    }
+  }
+}
